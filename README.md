@@ -40,13 +40,17 @@ network_health-monitor/
 │
 ├── data/                     # Generated and processed datasets
 ├── model/                    # Trained models and related files
-├── anaconda_projects/db/     # Local database / environment-related files
-│
+├── src/                      # Source code modules
+│   ├── data/                 # Data ingestion and preprocessing
+│   ├── ml/                   # Model training and inference
+│   ├── utils/                # Shared helpers and utilities
+│   └── dashboard/            # Streamlit dashboard components
+├── notebooks/                # Jupyter notebooks for analysis and experimentation
+├── tests/                    # Test suite placeholders
 ├── app.py                    # Streamlit application entry point
-├── data-generated.ipynb      # Synthetic network data generation
-├── Model-trained.ipynb       # Model training and evaluation
-├── analyse.ipynb             # Data analysis and experiments
-├── Untitled.ipynb            # Exploratory notebook
+├── config.py                 # Configuration settings
+├── requirements.txt          # Python dependencies
+├── .gitignore                # Git ignore rules
 └── README.md
 ```
 
